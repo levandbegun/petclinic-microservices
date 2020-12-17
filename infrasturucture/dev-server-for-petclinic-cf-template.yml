@@ -101,7 +101,7 @@ Resources:
       - Key: Name
       Value: !Sub PetClinix App Dev Server ${AWS::StackName}
 
-Output:
+Outputs:
   PetClinicDNSName:
     Description: PetClinic App Url
     Value: !GetAtt PetClinicServer.PublicDNSName
